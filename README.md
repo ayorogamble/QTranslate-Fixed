@@ -2,18 +2,18 @@
 
 # QTranslate Fixed for Windows
 
-**Ready-to-use QTranslate build with working Google Translate and DeepL integrations, installer, hotkey setup guide, VPN and proxy instructions.**
+**Ready-to-use QTranslate build for Windows with updated Google Translate and DeepL integrations.**
 
-**Готовая сборка QTranslate для Windows с исправленными Google Translate и DeepL, установщиком, настройкой горячих клавиш и понятным гайдом по VPN / Proxy.**
+**Готовая сборка QTranslate для Windows с исправленными Google Translate и DeepL.**
 
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed)
-[![Version](https://img.shields.io/badge/version-v1.0.0-brightgreen)](https://github.com/ayorogamble/QTranslate-Fixed/releases/tag/v1.0.0)
-[![Google Translate](https://img.shields.io/badge/Google%20Translate-working-4285F4?logo=googletranslate&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed)
+[![Version](https://img.shields.io/badge/version-v1.1.0-brightgreen)](https://github.com/ayorogamble/QTranslate-Fixed/releases/tag/v1.1.0)
+[![Google Translate](https://img.shields.io/badge/Google%20Translate-fixed-4285F4?logo=googletranslate&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed)
 [![DeepL](https://img.shields.io/badge/DeepL-fixed-0F2B46)](https://github.com/ayorogamble/QTranslate-Fixed)
 
-### [⬇ Download QTranslate Fixed v1.0.0](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.0.0/QTranslate-Fixed-v1.0.0-Setup.exe)
+### [⬇ Download QTranslate Fixed v1.1.0](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.1.0/QTranslate-Fixed-v1.1.0-Setup.exe)
 
-[English](#english) · [Русский](#русский) · [Поддержать проект](#поддержать-проект--support-the-project)
+[English](#english) · [Русский](#русский) · [Support / Поддержать проект](#support--поддержать-проект)
 
 </div>
 
@@ -21,307 +21,265 @@
 
 ## English
 
-### What is QTranslate Fixed?
+### What is this?
 
-QTranslate Fixed is a ready-to-use Windows build of QTranslate created to restore translation services that stopped working correctly in older installations.
+QTranslate Fixed is a community-maintained Windows build of QTranslate intended to restore translation services that no longer work correctly in older QTranslate installations.
 
-Current build includes:
+Current fixes:
 
-- **Google Translate** integration
-- **DeepL** integration
-- Windows installer
-- System proxy support
-- v2rayN setup instructions
-- Recommended hotkey preset
+- **Google Translate**
+- **DeepL**
+- Ready-to-use Windows installer
+- System proxy support for VPN-based setups
 
-The goal is simple: download the installer, launch QTranslate, configure the shortcuts you want, and use it as a fast desktop translator.
+The goal is simple: **download, install, configure your network if necessary, and use QTranslate normally.**
 
 ### Installation
 
-1. Download [QTranslate-Fixed-v1.0.0-Setup.exe](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.0.0/QTranslate-Fixed-v1.0.0-Setup.exe).
+1. Download [QTranslate-Fixed-v1.1.0-Setup.exe](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.1.0/QTranslate-Fixed-v1.1.0-Setup.exe).
 2. Run the installer.
-3. Start QTranslate.
-4. Configure the tray mode and hotkeys using the guide below.
+3. Launch QTranslate.
+4. Configure Mouse mode and hotkeys.
 
 ### Recommended QTranslate setup
 
-1. Find the QTranslate icon in the Windows system tray.
+1. Find the QTranslate icon in the Windows system tray. If it is hidden, click the small arrow near the clock.
 2. Right-click the QTranslate icon.
 3. Open **Mouse mode** and enable it.
 4. Open **Settings**.
 5. Go to **Hotkeys**.
 6. Assign the shortcuts you prefer.
 
-Recommended preset used by the project author:
+Recommended preset:
 
 | Action | Hotkey |
-| --- | --- |
+|---|---|
 | Show popup window | `Ctrl + Q` |
 | Replace selected text with translation | `Ctrl + W` |
 | Switch keyboard layout of selected text | `Ctrl + D` |
 
-### How to use the hotkeys
+### How to use it
 
-**Want to see a translation without changing the original text?**
+**See a translation without changing the original text:** select the text and press `Ctrl + Q`. If you need to select everything first, use `Ctrl + A`.
 
-Select the text with your mouse and press `Ctrl + Q`. QTranslate opens a popup with the translation. If you need to select all text in the current field or document first, use `Ctrl + A`.
+**Translate text and replace it immediately:** select the text and press `Ctrl + W`.
 
-**Want to translate text you wrote and immediately replace it with the translated version?**
+**Typed a long message using the wrong keyboard layout:** select the text and press `Ctrl + D`.
 
-Select the text and press `Ctrl + W`.
+### VPN / Proxy setup for DeepL
 
-**Typed a long message using the wrong keyboard layout?**
+In the author's tested setup, **Google Translate and Yandex Translate work without a VPN**. If DeepL does not respond on your network, use [v2rayN](https://github.com/2dust/v2rayN) and System Proxy.
 
-Select the text and press `Ctrl + D`. QTranslate switches the keyboard layout of the selected text without requiring you to type everything again.
-
-### Google Translate, Yandex Translate and DeepL
-
-In the author's tested setup, **Google Translate and Yandex Translate work without a VPN**.
-
-If **DeepL** does not respond on your network, use the v2rayN / System Proxy setup below. Availability can still depend on your ISP, country, VPN route and the current state of the translation service.
-
-### DeepL through v2rayN
-
-Recommended Windows client: [v2rayN](https://github.com/2dust/v2rayN)
-
-1. Import or create a working VPN profile in v2rayN.
-2. Connect to the profile.
+1. Add or import a working VPN profile in v2rayN.
+2. Connect to it.
 3. At the bottom of v2rayN, change **Clear system proxy** to **Set system proxy**.
 4. Open **QTranslate Settings**.
 5. Open **Proxy server**.
 6. Select **Use system proxy settings**.
-7. Fully restart QTranslate.
-8. Test DeepL again.
+7. Restart QTranslate completely.
 
-If your VPN already uses **TUN mode** or full-tunnel routing for all Windows traffic, System Proxy may not be necessary.
+If your VPN already uses TUN mode or full-tunnel routing for all Windows traffic, enabling System Proxy may not be necessary.
 
 ### If you do not have a ready v2rayN profile
 
-If you already have a VPN server or subscription but only have its configuration in another client:
+If your VPN already works in another client, find that server's connection parameters or JSON configuration and compare them with the v2rayN custom configuration fields.
 
-1. Open the VPN client where the working server is already configured.
-2. Find the connection parameters or JSON configuration for that server.
-3. Open the v2rayN dialog for adding a custom configuration.
-4. You can ask an AI assistant to explain how the existing configuration maps to the v2rayN fields.
-
-Example prompt:
+You can ask an AI assistant to explain how to map the values:
 
 ```text
 Help me create a v2rayN configuration for my protocol, for example VLESS.
-I will provide the configuration from my current VPN client and a screenshot of the v2rayN custom configuration window.
+I will provide the configuration from my current VPN client and a screenshot
+of the v2rayN custom configuration window.
 Explain which value should be entered into each field.
 ```
 
-**Security note:** VPN configurations can contain UUIDs, passwords, private keys, subscription links and other credentials. Do not post them publicly. Remove or mask sensitive values when using services you do not trust.
+**Security:** VPN configurations can contain UUIDs, passwords, private keys and subscription links. Do not post them publicly. Mask sensitive values when using services you do not trust.
 
 ### Browser proxy
 
-If you also want separate proxy control inside a Chromium-based browser, you can use:
+If you also need separate proxy routing inside a Chromium-based browser, you can use:
 
 [Proxy SwitchyOmega 3 / ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped)
 
-This extension is optional and is not required for QTranslate itself.
+This is optional and is not required for QTranslate itself.
 
 ### Troubleshooting
 
-If a service stops working:
-
-1. Confirm the translation service opens in your browser.
-2. If you use v2rayN, confirm **Set system proxy** is active.
-3. Confirm QTranslate is set to **Use system proxy settings**.
-4. Fully close QTranslate, including its tray process, and start it again.
-5. Try another VPN server or exit IP.
-6. Check the latest GitHub Release for an updated build.
-
-### FAQ
-
-#### QTranslate is not working. What should I do?
-
-Install the latest QTranslate Fixed release, restart QTranslate completely, and verify your network or system proxy settings.
-
-#### Does Google Translate work?
-
-Yes, the current build contains an updated Google Translate integration.
-
-#### Does DeepL work?
-
-Yes, the current build contains an updated DeepL integration. Depending on your network, you may need to route QTranslate through a VPN or system proxy.
-
-#### Does QTranslate work on Windows 11?
-
-The current installer is intended for modern Windows systems, including Windows 10 and Windows 11.
-
-### Important notice
-
-DeepL and Google integrations in this project use unofficial client or web endpoints. These endpoints can change, rate-limit requests, or stop accepting anonymous traffic without notice.
-
-This project is not affiliated with QTranslate, Google, DeepL, Yandex, v2rayN or ZeroOmega.
+1. Confirm the required service opens in your browser.
+2. If using DeepL through v2rayN, make sure **Set system proxy** is enabled.
+3. Make sure QTranslate uses **system proxy settings**.
+4. Restart QTranslate completely, including the tray process.
+5. Try another VPN server or IP.
+6. Check this repository for a newer release.
 
 ---
 
 ## Русский
 
-### Что такое QTranslate Fixed?
+### Что это?
 
-QTranslate Fixed это готовая сборка QTranslate для Windows, созданная для восстановления сервисов перевода, которые перестали нормально работать в старых версиях программы.
+QTranslate Fixed представляет собой поддерживаемую сообществом сборку QTranslate для Windows. Цель проекта: восстановить сервисы перевода, которые перестали нормально работать в старых версиях QTranslate.
 
-В текущей сборке:
+Сейчас исправлены:
 
-- исправленная интеграция **Google Translate**
-- исправленная интеграция **DeepL**
-- готовый установщик для Windows
-- поддержка системного прокси
-- инструкция по v2rayN
-- удобный пресет горячих клавиш
+- **Google Translate**
+- **DeepL**
+- Готовый установщик для Windows
+- Работа через системный прокси для VPN
 
 ### Установка
 
-1. Скачайте [QTranslate-Fixed-v1.0.0-Setup.exe](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.0.0/QTranslate-Fixed-v1.0.0-Setup.exe).
+1. Скачайте [QTranslate-Fixed-v1.1.0-Setup.exe](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.1.0/QTranslate-Fixed-v1.1.0-Setup.exe).
 2. Запустите установщик.
 3. Запустите QTranslate.
-4. Настройте режим мыши и горячие клавиши по инструкции ниже.
+4. Настройте режим мыши и горячие клавиши.
 
-### Как правильно настроить QTranslate
+### Как настроить QTranslate
 
-1. Найдите значок QTranslate в трее Windows. Если значок скрыт, нажмите стрелку рядом с часами.
+1. Найдите значок QTranslate в трее Windows. Если он скрыт, нажмите стрелку рядом с часами.
 2. Нажмите по значку QTranslate правой кнопкой мыши.
-3. Наведитесь на пункт **Режим мыши** и включите его.
+3. Наведитесь на **Режим мыши** и включите его.
 4. Откройте **Настройки**.
 5. Перейдите в раздел **Горячие клавиши**.
-6. Назначьте удобные сочетания клавиш.
+6. Назначьте удобные сочетания.
 
 Мой рекомендуемый пресет:
 
 | Действие | Горячая клавиша |
-| --- | --- |
+|---|---|
 | Показать всплывающее окно | `Ctrl + Q` |
 | Заменить выделенный текст переводом | `Ctrl + W` |
 | Переключить раскладку клавиатуры выделенного текста | `Ctrl + D` |
 
-### Как этим пользоваться
+### Как это использовать
 
-**Хотите посмотреть перевод, но не менять исходный текст?**
+**Хотите посмотреть перевод, но не менять исходный текст?** Выделите текст мышью и нажмите `Ctrl + Q`. Появится окно с переводом. Если нужно быстро выделить весь текст, сначала нажмите `Ctrl + A`.
 
-Выделите текст мышью и нажмите `Ctrl + Q`. Появится всплывающее окно QTranslate с переводом. Если текста много и нужно быстро выделить всё содержимое текущего поля или документа, сначала нажмите `Ctrl + A`, затем `Ctrl + Q`.
+**Нужно быстро перевести написанный текст и сразу заменить его переводом?** Выделите текст и нажмите `Ctrl + W`.
 
-**Нужно быстро перевести написанный текст на другой язык и сразу отправить его?**
+**Полчаса писали большой текст и только потом заметили, что была включена неправильная раскладка?** Выделите текст и нажмите `Ctrl + D`. Перепечатывать всё заново не потребуется.
 
-Выделите текст и нажмите `Ctrl + W`. Выделенный текст будет заменён переводом.
+### DeepL через v2rayN
 
-**Полчаса писали большой текст и только потом заметили, что была включена неправильная раскладка?**
-
-Выделите текст и нажмите `Ctrl + D`. QTranslate переключит раскладку выделенного текста, поэтому перепечатывать всё заново не придётся.
-
-### Google Translate, Yandex Translate и DeepL
-
-В моей протестированной конфигурации **Google Translate и Yandex Translate работают без VPN**.
-
-Если **DeepL** не отвечает в вашей сети, настройте v2rayN и системный прокси по инструкции ниже. Доступность сервиса также зависит от провайдера, страны, VPN маршрута и текущих ограничений самого DeepL.
-
-### Настройка DeepL через v2rayN
-
-Рекомендуемый клиент для Windows: [v2rayN](https://github.com/2dust/v2rayN)
+В моей протестированной конфигурации **Google Translate и Yandex Translate работают без VPN**. Если DeepL не отвечает в вашей сети, используйте [v2rayN](https://github.com/2dust/v2rayN) и системный прокси.
 
 1. Добавьте или импортируйте рабочий VPN профиль в v2rayN.
 2. Подключитесь к нему.
-3. В нижней части окна v2rayN вместо **Очистить системный прокси** выберите **Установить системный прокси**.
-4. Откройте **Настройки QTranslate**.
+3. В нижней части v2rayN вместо **Очистить системный прокси** выберите **Установить системный прокси**.
+4. Откройте настройки QTranslate.
 5. Перейдите в раздел **Прокси-сервер**.
 6. Выберите **Использовать системные настройки прокси**.
-7. Полностью закройте QTranslate, включая значок в трее, и запустите программу заново.
-8. Проверьте DeepL.
+7. Полностью перезапустите QTranslate.
 
-Если VPN уже работает через **TUN mode** или направляет весь трафик Windows через VPN, отдельное включение системного прокси может быть не нужно.
+Если VPN уже работает через TUN mode или направляет весь трафик Windows через VPN, отдельно включать системный прокси может быть необязательно.
 
-### Если у вас нет готового конфига для v2rayN
+### Если нет готового конфига для v2rayN
 
-Если VPN уже работает в другом клиенте, но готового профиля для v2rayN у вас нет:
+Если VPN уже работает в другом клиенте, найдите параметры подключения или JSON конфигурацию сервера и сопоставьте их с полями пользовательской конфигурации v2rayN.
 
-1. Откройте клиент, в котором уже находится рабочий VPN.
-2. Найдите параметры подключения или JSON конфигурацию этого сервера.
-3. В v2rayN откройте окно добавления пользовательской конфигурации.
-4. При необходимости можно попросить нейросеть объяснить, какие значения из вашей существующей конфигурации нужно перенести в каждое поле v2rayN.
-
-Пример промпта:
+Можно попросить нейросеть объяснить, какие значения куда переносить:
 
 ```text
 Помоги сделать готовую конфигурацию для v2rayN под мой протокол, например VLESS.
-Я пришлю конфигурацию из моего текущего VPN клиента и скриншот окна добавления пользовательской конфигурации v2rayN.
+Я пришлю конфигурацию из моего текущего VPN клиента и скриншот окна
+добавления пользовательской конфигурации v2rayN.
 Объясни, что нужно указать в каждом поле.
 ```
 
-**Важно:** в VPN конфигурации могут находиться UUID, пароли, приватные ключи, ссылки на подписку и другие секретные данные. Не публикуйте их в открытом доступе. Если используете сторонний сервис, которому не доверяете, предварительно скройте чувствительные значения.
+**Важно:** конфигурации VPN могут содержать UUID, пароли, приватные ключи и ссылки на подписку. Не публикуйте их открыто и скрывайте чувствительные значения, если используете сервис, которому не доверяете.
 
 ### Прокси для браузера
 
-Если вы хотите отдельно управлять прокси в Chrome или другом Chromium браузере, можно установить:
+Если также нужно отдельно управлять прокси внутри браузера Chromium, можно использовать:
 
 [Proxy SwitchyOmega 3 / ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped)
 
-Для работы самого QTranslate это расширение не требуется.
+Для работы самого QTranslate это расширение не обязательно.
 
 ### Если что-то перестало работать
 
-1. Проверьте, открывается ли нужный сервис перевода в браузере.
-2. Если используете v2rayN, убедитесь, что включён **Установить системный прокси**.
-3. Проверьте, что QTranslate использует **системные настройки прокси**.
+1. Проверьте, открывается ли нужный сервис в браузере.
+2. Для DeepL через v2rayN убедитесь, что включён **Установить системный прокси**.
+3. Убедитесь, что QTranslate использует **системные настройки прокси**.
 4. Полностью закройте QTranslate, включая процесс в трее, и запустите снова.
 5. Попробуйте другой VPN сервер или IP.
-6. Проверьте последнюю версию в GitHub Releases.
-
-### FAQ
-
-#### QTranslate не работает. Что делать?
-
-Установите последнюю версию QTranslate Fixed, полностью перезапустите программу и проверьте настройки сети или системного прокси.
-
-#### Google Translate работает?
-
-Да. В текущей сборке используется обновлённая интеграция Google Translate.
-
-#### DeepL работает?
-
-Да. В текущей сборке используется обновлённая интеграция DeepL. В некоторых сетях для DeepL потребуется VPN и системный прокси.
-
-#### Работает ли QTranslate на Windows 11?
-
-Текущий установщик рассчитан на современные версии Windows, включая Windows 10 и Windows 11.
-
-### Важно
-
-Интеграции DeepL и Google используют неофициальные клиентские или веб endpoints. Они могут измениться, начать ограничивать запросы или перестать принимать анонимный трафик.
-
-Проект официально не связан с QTranslate, Google, DeepL, Yandex, v2rayN или ZeroOmega.
+6. Проверьте репозиторий на наличие новой версии.
 
 ---
 
-## Поддержать проект / Support the project
-
-Если QTranslate Fixed оказался полезен, вы можете поддержать дальнейшее обновление проекта.
+## Support / Поддержать проект
 
 If QTranslate Fixed helped you, you can support future maintenance and updates.
 
+Если QTranslate Fixed оказался полезен, вы можете поддержать дальнейшие обновления проекта.
+
+**BTC**
+
 ```text
-BTC
 bc1qmnq60wkwen6lpz7aax0avpw934p5a4nmclakj4
+```
 
-ETH
+**ETH**
+
+```text
 0xF3EC9407F351432E6C3A2FA8712EFb450E081532
+```
 
-USDT (TRC20)
+**USDT (TRC20)**
+
+```text
 TZBGepgkYSXmVB2RiupSFfusD75BBKe1EK
 ```
 
-Перед отправкой всегда проверяйте адрес и выбранную сеть.
-
-Always verify the destination address and network before sending funds.
+> Always verify the destination address and network before sending funds.  
+> Перед отправкой всегда проверяйте адрес и выбранную сеть.
 
 ---
 
+## Release verification
+
+Latest installer: `QTranslate-Fixed-v1.1.0-Setup.exe`
+
+SHA256:
+
+```text
+bb9b4306161b138f736c5ffcfda42373f26e1e8655bbc6017bae98e0a964d6fa
+```
+
+## FAQ
+
+### QTranslate is not working. What should I do?
+
+Install the latest QTranslate Fixed release, restart QTranslate completely, then verify your network and proxy settings.
+
+### Does DeepL work in QTranslate?
+
+The current build contains an updated DeepL integration. Some networks may require VPN routing through v2rayN and System Proxy.
+
+### Does Google Translate work?
+
+The current build contains an updated Google Translate integration.
+
+### Does QTranslate work on Windows 11?
+
+The current installer is intended for Windows 10 and Windows 11.
+
+### Why can DeepL require a VPN?
+
+Network access to DeepL may differ by ISP, region or current IP. QTranslate can use the Windows system proxy configured by v2rayN.
+
+---
+
+### Important notice
+
+DeepL and Google integrations in this build rely on unofficial client/web endpoints. These endpoints can change, rate-limit requests, or stop accepting anonymous traffic without notice.
+
+This project is not officially affiliated with QTranslate, Google, DeepL, Yandex, v2rayN or ZeroOmega.
+
 <div align="center">
 
-If this build helped you, please leave a ⭐ on the repository. It helps other QTranslate users find the working version.
+If this build helped you, consider starring the repository so other QTranslate users can find it more easily.
 
-Если сборка помогла, поставьте репозиторию ⭐. Так другим пользователям QTranslate будет проще найти рабочую версию.
+Если сборка помогла, поставьте репозиторию звезду. Так другим пользователям QTranslate будет проще его найти.
 
 </div>
