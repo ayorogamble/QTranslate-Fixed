@@ -1,0 +1,73 @@
+name: Bug report
+description: Report a broken translation service or installer problem
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve QTranslate Fixed. Please include enough detail to reproduce the problem.
+
+  - type: dropdown
+    id: service
+    attributes:
+      label: Affected component
+      options:
+        - Google Translate
+        - DeepL
+        - Installer
+        - Proxy / VPN routing
+        - QTranslate itself
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: QTranslate Fixed version
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      placeholder: Describe the error and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open QTranslate
+        2. Select DeepL
+        3. Translate EN -> RU
+        4. Error appears
+    validations:
+      required: true
+
+  - type: input
+    id: network
+    attributes:
+      label: VPN / proxy setup
+      placeholder: v2rayN System Proxy, TUN mode, no VPN, etc.
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Exact error message or screenshot
+      description: Paste the full error text or attach a screenshot.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I restarted QTranslate completely, including the tray process.
+          required: true
+        - label: I checked whether the translation service works in my browser on the same network.
+          required: true
