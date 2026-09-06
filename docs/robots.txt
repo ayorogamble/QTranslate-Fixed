@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://ayorogamble.github.io/QTranslate-Fixed/sitemap.xml
