@@ -7,7 +7,7 @@
 **Готовая сборка QTranslate для Windows с исправленными Google Translate и DeepL.**
 
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed)
-[![Version](https://img.shields.io/badge/version-v1.1.0-brightgreen)
+![Version](https://img.shields.io/badge/version-v1.1.0-brightgreen)
 [![Google Translate](https://img.shields.io/badge/Google%20Translate-fixed-4285F4?logo=googletranslate&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed)
 [![DeepL](https://img.shields.io/badge/DeepL-fixed-0F2B46)](https://github.com/ayorogamble/QTranslate-Fixed)
 
@@ -35,11 +35,16 @@ Current fixes:
 The goal is simple: **download, install, configure your network if necessary, and use QTranslate normally.**
 
 ### Installation
-### Downloads
 
 Official builds are distributed only through this repository's GitHub Releases section.
 
 This README intentionally does not contain direct links to executable or archived files.
+
+1. Open the Releases section of this repository and select the latest release.
+2. Download the installer from the release assets.
+3. Run the installer.
+4. Launch QTranslate.
+5. Configure Mouse mode and hotkeys.
 
 1. Open the Releases section of this repository and select the latest release.
 2. Download the installer from the release assets.
@@ -134,7 +139,6 @@ QTranslate Fixed представляет собой поддерживаему�
 - Работа через системный прокси для VPN
 
 ### Установка
-### Загрузка
 
 Официальные сборки распространяются только через раздел GitHub Releases этого репозитория.
 
