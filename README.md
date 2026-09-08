@@ -11,7 +11,7 @@
 [![Google Translate](https://img.shields.io/badge/Google%20Translate-fixed-4285F4?logo=googletranslate&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed)
 [![DeepL](https://img.shields.io/badge/DeepL-fixed-0F2B46)](https://github.com/ayorogamble/QTranslate-Fixed)
 
-### [⬇ Download QTranslate Fixed v1.1.0](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.1.0/QTranslate-Fixed-v1.1.0-Setup.exe)
+
 
 [English](#english) · [Русский](#русский) · [Support / Поддержать проект](#support--поддержать-проект)
 
@@ -36,10 +36,11 @@ The goal is simple: **download, install, configure your network if necessary, an
 
 ### Installation
 
-1. Download [QTranslate-Fixed-v1.1.0-Setup.exe](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.1.0/QTranslate-Fixed-v1.1.0-Setup.exe).
-2. Run the installer.
-3. Launch QTranslate.
-4. Configure Mouse mode and hotkeys.
+1. Open the Releases section of this repository and select the latest release.
+2. Download the installer from the release assets.
+3. Run the installer.
+4. Launch QTranslate.
+5. Configure Mouse mode and hotkeys.
 
 ### Recommended QTranslate setup
 
@@ -129,10 +130,11 @@ QTranslate Fixed представляет собой поддерживаему�
 
 ### Установка
 
-1. Скачайте [QTranslate-Fixed-v1.1.0-Setup.exe](https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.1.0/QTranslate-Fixed-v1.1.0-Setup.exe).
-2. Запустите установщик.
-3. Запустите QTranslate.
-4. Настройте режим мыши и горячие клавиши.
+1. Откройте раздел Releases этого репозитория и выберите последний релиз.
+2. Скачайте установщик из файлов релиза.
+3. Запустите установщик.
+4. Запустите QTranslate.
+5. Настройте режим мыши и горячие клавиши.
 
 ### Как настроить QTranslate
 
