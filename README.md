@@ -46,11 +46,6 @@ This README intentionally does not contain direct links to executable or archive
 4. Launch QTranslate.
 5. Configure Mouse mode and hotkeys.
 
-1. Open the Releases section of this repository and select the latest release.
-2. Download the installer from the release assets.
-3. Run the installer.
-4. Launch QTranslate.
-5. Configure Mouse mode and hotkeys.
 
 ### Recommended QTranslate setup
 
