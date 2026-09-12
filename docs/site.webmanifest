@@ -1,0 +1,8 @@
+{
+  "name": "QTranslate Fixed",
+  "short_name": "QTranslate",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117"
+}

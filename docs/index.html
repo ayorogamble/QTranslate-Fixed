@@ -1,93 +1,34 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QTranslate Fixed v1.1.0 for Windows | Google Translate & DeepL Fix</title>
-  <meta name="description" content="Download QTranslate Fixed v1.1.0 for Windows with updated Google Translate and DeepL integrations, hotkey setup and v2rayN system proxy guide.">
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://ayorogamble.github.io/QTranslate-Fixed/">
-  <meta property="og:title" content="QTranslate Fixed v1.1.0 for Windows">
-  <meta property="og:description" content="Updated QTranslate build with Google Translate and DeepL integrations, installer and setup guide.">
-  <meta property="og:url" content="https://ayorogamble.github.io/QTranslate-Fixed/">
-  <meta property="og:type" content="website">
-  <style>
-    body { margin:0; background:#0d1117; color:#e6edf3; font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif; }
-    main { max-width:920px; margin:auto; padding:32px 20px 64px; }
-    header { text-align:center; padding:48px 0 28px; }
-    h1 { font-size:clamp(2.4rem,7vw,4.8rem); margin:0 0 12px; }
-    section { border:1px solid #30363d; background:#161b22; border-radius:12px; padding:22px; margin:18px 0; }
-    a { color:#58a6ff; }
-    .btn { display:inline-block; background:#238636; color:white; padding:12px 18px; text-decoration:none; border-radius:8px; font-weight:700; }
-    code,pre { background:#0d1117; border:1px solid #30363d; border-radius:6px; }
-    code { padding:2px 6px; }
-    pre { padding:14px; overflow:auto; white-space:pre-wrap; }
-    table { width:100%; border-collapse:collapse; }
-    th,td { border:1px solid #30363d; padding:10px; text-align:left; }
-    .wallet { word-break:break-all; }
-    .muted { color:#8b949e; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QTranslate for macOS and Windows | QTranslate Fixed</title>
+<meta name="description" content="Download and set up QTranslate Fixed for Windows and the native community QTranslate for macOS build. Global hotkeys, Google, Yandex, OpenAI, system proxy guide and troubleshooting.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://ayorogamble.github.io/QTranslate-Fixed/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="QTranslate for macOS and Windows | QTranslate Fixed">
+<meta property="og:description" content="Download and set up QTranslate Fixed for Windows and the native community QTranslate for macOS build. Global hotkeys, Google, Yandex, OpenAI, system proxy guide and troubleshooting.">
+<meta property="og:url" content="https://ayorogamble.github.io/QTranslate-Fixed/">
+<meta name="twitter:card" content="summary">
+<style>
+:root{color-scheme:dark;--bg:#0d1117;--card:#161b22;--line:#30363d;--text:#e6edf3;--muted:#8b949e;--link:#58a6ff;--green:#238636}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:1040px;margin:auto;padding:28px 20px 72px}header{text-align:center;padding:58px 0 30px}h1{font-size:clamp(2.3rem,7vw,4.8rem);line-height:1.05;margin:0 0 16px}h2{font-size:1.6rem}section{border:1px solid var(--line);background:var(--card);border-radius:14px;padding:24px;margin:20px 0}a{color:var(--link)}.btn{display:inline-block;background:var(--green);color:#fff;padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:700;margin:5px}.muted{color:var(--muted)}code,pre{background:#0b0f14;border:1px solid var(--line);border-radius:6px}code{padding:2px 6px}pre{padding:14px;overflow:auto}.wallet{word-break:break-all}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.card{border:1px solid var(--line);border-radius:12px;padding:18px}table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--line);padding:10px;text-align:left}nav{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:12px 0 0}
+</style>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "QTranslate Fixed", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Windows, macOS", "url": "https://ayorogamble.github.io/QTranslate-Fixed/", "downloadUrl": "https://ayorogamble.github.io/QTranslate-Fixed/downloads/QTranslate-Fixed-macOS-v1.0.dmg", "author": {"@type": "Person", "name": "ayorogamble"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does QTranslate work on macOS?", "acceptedAnswer": {"@type": "Answer", "text": "This repository documents a native community macOS build with global translation hotkeys and optional OpenAI translation."}}, {"@type": "Question", "name": "How do I install QTranslate on macOS?", "acceptedAnswer": {"@type": "Answer", "text": "Download the DMG from GitHub Releases, drag QTranslate to Applications, launch it and grant Accessibility permission."}}, {"@type": "Question", "name": "Where is the OpenAI API key stored on macOS?", "acceptedAnswer": {"@type": "Answer", "text": "The macOS build stores the user-provided OpenAI API key in macOS Keychain."}}, {"@type": "Question", "name": "What are the default QTranslate hotkeys?", "acceptedAnswer": {"@type": "Answer", "text": "Control+Q shows translation, Control+W translates and replaces selected text, and Control+D fixes the EN/RU keyboard layout."}}]}]</script>
 </head>
-<body>
-<main>
-<header>
-  <h1>QTranslate Fixed v1.1.0</h1>
-  <p>Updated QTranslate build for Windows with working Google Translate and DeepL integrations.</p>
-  <p><a class="btn" href="https://github.com/ayorogamble/QTranslate-Fixed/releases/download/v1.1.0/QTranslate-Fixed-v1.1.0-Setup.exe">Download v1.1.0</a></p>
-  <p><a href="https://github.com/ayorogamble/QTranslate-Fixed">GitHub repository</a></p>
-</header>
-
+<body><main><header><h1>QTranslate Fixed</h1><p>Fast popup translation for Windows and a native community macOS build.</p><p><a class="btn" href="https://ayorogamble.github.io/QTranslate-Fixed/downloads/QTranslate-Fixed-macOS-v1.0.dmg">Download latest release</a><a class="btn" href="https://github.com/ayorogamble/QTranslate-Fixed">GitHub</a></p><nav><a href="macos.html">macOS guide</a><a href="windows.html">Windows guide</a><a href="#support">Support</a></nav></header>
+<section><h2>QTranslate for macOS</h2><div class="grid"><div class="card"><h3>Native workflow</h3><p>Menu-bar app with global hotkeys. No Wine required.</p></div><div class="card"><h3>OpenAI in Settings</h3><p>Enter your own API key inside QTranslate. The key is stored in macOS Keychain.</p></div><div class="card"><h3>Smart bidirectional</h3><p>Auto-detect the source language and reverse the target when appropriate.</p></div></div><p><a href="macos.html">Open the complete macOS installation guide →</a></p></section>
+<section><h2>Default hotkeys</h2><table><tr><th>Action</th><th>Hotkey</th></tr><tr><td>Show translation</td><td><code>Control + Q</code></td></tr><tr><td>Translate and replace</td><td><code>Control + W</code></td></tr><tr><td>Fix keyboard layout</td><td><code>Control + D</code></td></tr></table></section>
+<section><h2>Windows</h2><p>Windows documentation focuses on restoring translation services and keeping the classic QTranslate workflow. New releases should respect the original QuestSoft license and avoid redistributing modified original executables without permission.</p><p><a href="windows.html">Open Windows guide →</a></p></section>
+<section id="support"><h2>Support / Поддержать проект</h2><p><strong>BTC</strong><br><code class="wallet">bc1qmnq60wkwen6lpz7aax0avpw934p5a4nmclakj4</code></p><p><strong>ETH</strong><br><code class="wallet">0xF3EC9407F351432E6C3A2FA8712EFb450E081532</code></p><p><strong>USDT (TRC20)</strong><br><code class="wallet">TZBGepgkYSXmVB2RiupSFfusD75BBKe1EK</code></p><p class="muted">Always verify the address and network before sending funds. Перед отправкой всегда проверяйте адрес и выбранную сеть.</p></section>
+<section><h2>FAQ</h2><h3>Does QTranslate work on macOS?</h3><p>Yes, this repository documents a native community macOS build.</p><h3>How do I install it?</h3><p>Download the DMG from GitHub Releases, drag QTranslate into Applications, then grant Accessibility permission.</p><h3>Where is the OpenAI key stored?</h3><p>In macOS Keychain.</p><h3>Is this official?</h3><p>No. This is an unofficial community project.</p></section>
 <section>
-<h2>QTranslate setup</h2>
-<ol>
-<li>Install QTranslate Fixed v1.1.0.</li>
-<li>Find the QTranslate icon in the Windows tray.</li>
-<li>Right-click it and enable <strong>Mouse mode</strong>.</li>
-<li>Open <strong>Settings → Hotkeys</strong>.</li>
-</ol>
-<table>
-<tr><th>Action</th><th>Recommended hotkey</th></tr>
-<tr><td>Show popup window</td><td><code>Ctrl + Q</code></td></tr>
-<tr><td>Replace selected text with translation</td><td><code>Ctrl + W</code></td></tr>
-<tr><td>Switch keyboard layout of selected text</td><td><code>Ctrl + D</code></td></tr>
-</table>
+  <h2>macOS v1.0 download</h2>
+  <p><a href="./downloads/QTranslate-Fixed-macOS-v1.0.dmg" download>Download QTranslate-Fixed-macOS-v1.0.dmg</a></p>
+  <p><strong>SHA256:</strong> <code>e43cb545054bf52c2fe841c31267e3b6271c2799052286875b3483fb38a2acdb</code></p>
 </section>
 
-<section>
-<h2>DeepL and v2rayN</h2>
-<p>In the author's tested setup, Google Translate and Yandex Translate work without a VPN. If DeepL does not respond on your network:</p>
-<ol>
-<li>Connect to a working profile in <a href="https://github.com/2dust/v2rayN">v2rayN</a>.</li>
-<li>Select <strong>Set system proxy</strong>.</li>
-<li>Open QTranslate Settings.</li>
-<li>Open Proxy server.</li>
-<li>Select <strong>Use system proxy settings</strong>.</li>
-<li>Restart QTranslate completely.</li>
-</ol>
-</section>
-
-<section lang="ru">
-<h2>Русская инструкция</h2>
-<p><code>Ctrl + Q</code> показывает перевод выделенного текста.</p>
-<p><code>Ctrl + W</code> заменяет выделенный текст переводом.</p>
-<p><code>Ctrl + D</code> переключает раскладку выделенного текста.</p>
-<p>Для DeepL при необходимости включите в v2rayN <strong>Установить системный прокси</strong>, затем в QTranslate выберите <strong>Использовать системные настройки прокси</strong>.</p>
-</section>
-
-<section>
-<h2>Release verification</h2>
-<p><strong>Installer:</strong> <code>QTranslate-Fixed-v1.1.0-Setup.exe</code></p>
-<p><strong>SHA256:</strong></p>
-<pre>bb9b4306161b138f736c5ffcfda42373f26e1e8655bbc6017bae98e0a964d6fa</pre>
-</section>
-
-<section>
-<h2>Support the project / Поддержать проект</h2>
-<p><strong>BTC</strong><br><code class="wallet">bc1qmnq60wkwen6lpz7aax0avpw934p5a4nmclakj4</code></p>
-<p><strong>ETH</strong><br><code class="wallet">0xF3EC9407F351432E6C3A2FA8712EFb450E081532</code></p>
-<p><strong>USDT (TRC20)</strong><br><code class="wallet">TZBGepgkYSXmVB2RiupSFfusD75BBKe1EK</code></p>
-<p class="muted">Always verify the destination address and network before sending funds. Перед отправкой всегда проверяйте адрес и выбранную сеть.</p>
-</section>
-</main>
-</body>
+</main></body>
 </html>

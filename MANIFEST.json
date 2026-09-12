@@ -1,0 +1,112 @@
+[
+  {
+    "path": "LEGAL.md",
+    "size": 1357,
+    "sha256": "d8b80d0114ef1436319b11bd99845e9d14c07eb8abf474199152bc7e6333571d"
+  },
+  {
+    "path": "MACOS_GUIDE.md",
+    "size": 3147,
+    "sha256": "2136ad9e5b659379dede8820c71471663f35b0d745ddc94c2f9f23f5a14122ce"
+  },
+  {
+    "path": "PUBLISH_ON_MAC.txt",
+    "size": 357,
+    "sha256": "583ff312713408f7aa498bd5e8b26f24756e02eb80ff6c8828cb9478537fa679"
+  },
+  {
+    "path": "README.md",
+    "size": 5326,
+    "sha256": "0cc0e8d9a9a5b65fe01f6085b706a15f47a2a9d0d874fcc0585790c86007d00f"
+  },
+  {
+    "path": "RELEASE_MACOS.md",
+    "size": 895,
+    "sha256": "42ca6682379062ede20901dba36ee4ade8c7ffafb8007679e4cde96a07038062"
+  },
+  {
+    "path": "SECURITY.md",
+    "size": 706,
+    "sha256": "a087160a2a29c618514926cab60a69301e12101f37312a5227a27dc96ec04b25"
+  },
+  {
+    "path": "WINDOWS_GUIDE.md",
+    "size": 1251,
+    "sha256": "8f75d106c19ad3b719404985a7a87b90a1a5b41f073fddcdaa3e888cbc430aae"
+  },
+  {
+    "path": "docs/404.html",
+    "size": 322,
+    "sha256": "ef43411a86cb43017fca169bcb665ef3e471a68c0eb137dfdf6ea1d6bc6ff434"
+  },
+  {
+    "path": "docs/downloads/QTranslate-Fixed-macOS-v1.0.dmg",
+    "size": 502331,
+    "sha256": "e43cb545054bf52c2fe841c31267e3b6271c2799052286875b3483fb38a2acdb"
+  },
+  {
+    "path": "docs/downloads/SHA256SUMS.txt",
+    "size": 98,
+    "sha256": "6c533f753c08a0d55bae8a99b7b8c1459cbe1478aaf0caf9444a6667bcbb45c4"
+  },
+  {
+    "path": "docs/index.html",
+    "size": 6746,
+    "sha256": "c30cfe18ac9154259dd21790f758eeec4ee1ed3d955d915bd0e894c65a8c3595"
+  },
+  {
+    "path": "docs/macos.html",
+    "size": 4961,
+    "sha256": "c5e9f201ac795a4caa921a062ce25fb46efdd359677bd3bb5233796586117152"
+  },
+  {
+    "path": "docs/robots.txt",
+    "size": 91,
+    "sha256": "1828acbc5347d3562a663371f7c134298395750702cc65a3b7296e3e8a12e4b5"
+  },
+  {
+    "path": "docs/site.webmanifest",
+    "size": 168,
+    "sha256": "f7d5e7f5c4e65990fb1860d3ad6eca624279e18719843801b33ee92489d14acd"
+  },
+  {
+    "path": "docs/sitemap.xml",
+    "size": 513,
+    "sha256": "787bd685eea6c3fb7159a29b14f56f3eed551d23f0e8aff3533a2d7cdd50c618"
+  },
+  {
+    "path": "docs/windows.html",
+    "size": 3954,
+    "sha256": "73f5c01f74f4d843f722ff39da75bf8f6019b65176d0275ac07d375b74589f31"
+  },
+  {
+    "path": "macos-source-snapshots/QTranslate-macOS-core-v0.2.zip",
+    "size": 14551,
+    "sha256": "e850272514d59a2a9bfa62538e9ed3f70790b44a43c5944335a87940d384fb6a"
+  },
+  {
+    "path": "macos-source-snapshots/QTranslate-macOS-v0.3-YandexWeb-OpenAI.zip",
+    "size": 7878,
+    "sha256": "1a84a513e500894e4425dee19449f4d8f9bef8e1cded614c3922facd89cb978e"
+  },
+  {
+    "path": "macos-source-snapshots/README.md",
+    "size": 277,
+    "sha256": "1d8aa8432010c644c19f86fbec976d9c7f774e5a05c721ecd0e25e9c0f53ae40"
+  },
+  {
+    "path": "publish-macos-release.sh",
+    "size": 1776,
+    "sha256": "170d6f70fd89e67a3b3c9d4f83884abe6c2866b3f93b48a6a9ca8b08f1c3d1b1"
+  },
+  {
+    "path": "release-assets/QTranslate-Fixed-macOS-v1.0.dmg",
+    "size": 502331,
+    "sha256": "e43cb545054bf52c2fe841c31267e3b6271c2799052286875b3483fb38a2acdb"
+  },
+  {
+    "path": "release-assets/SHA256SUMS.txt",
+    "size": 98,
+    "sha256": "6c533f753c08a0d55bae8a99b7b8c1459cbe1478aaf0caf9444a6667bcbb45c4"
+  }
+]

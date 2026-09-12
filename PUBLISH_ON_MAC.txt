@@ -1,0 +1,13 @@
+From the root of your local QTranslate-Fixed repository:
+
+1. Copy all files from this package into the repository root.
+2. Open Terminal in the repository.
+3. Run:
+
+chmod +x publish-macos-release.sh
+./publish-macos-release.sh
+
+The script verifies SHA256 before pushing.
+
+Expected DMG SHA256:
+e43cb545054bf52c2fe841c31267e3b6271c2799052286875b3483fb38a2acdb
