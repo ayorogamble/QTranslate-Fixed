@@ -1,75 +1,215 @@
-<div align="center">
+---
 
-# QTranslate Fixed v1.2.0
+# Guides
 
-**Fast popup translation for Windows 10/11 and macOS.**  
-**Быстрый перевод выделенного текста на Windows 10/11 и macOS.**
+Detailed setup and troubleshooting instructions are available here:
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed/releases)
-[![macOS](https://img.shields.io/badge/macOS-v1.0-000000?logo=apple&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed/releases)
-[![Google Translate](https://img.shields.io/badge/Google%20Translate-supported-4285F4?logo=googletranslate&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed)
-[![OpenAI](https://img.shields.io/badge/OpenAI-supported-412991?logo=openai&logoColor=white)](https://github.com/ayorogamble/QTranslate-Fixed)
+### macOS
 
-## Downloads
+**[macOS Installation & Setup Guide](MACOS_GUIDE.md)**
 
-### 🍎 [Download macOS v1.0](https://github.com/ayorogamble/QTranslate-Fixed/releases/latest)
+Includes:
 
-### 🪟 [Download Windows 10-11](https://github.com/ayorogamble/QTranslate-Fixed/releases/latest)
+- DMG installation
+- Accessibility permissions
+- Global hotkeys
+- Google Translate
+- Yandex Web
+- OpenAI / ChatGPT setup
+- OpenAI API key configuration
+- macOS Keychain
+- System proxy / VPN configuration
+- Troubleshooting
 
-[All releases / Все релизы](https://github.com/ayorogamble/QTranslate-Fixed/releases)
+### Windows 10 / 11
 
-[macOS guide](MACOS_GUIDE.md) · [Windows guide](WINDOWS_GUIDE.md) · [Security](SECURITY.md) · [Legal notice](LEGAL.md)
+**[Windows Installation & Setup Guide](WINDOWS_GUIDE.md)**
 
-</div>
+Includes:
+
+- Windows 10 / 11 installation
+- Google Translate fixes
+- DeepL fixes
+- Global hotkeys
+- Proxy / VPN configuration
+- Translation service troubleshooting
 
 ---
 
-## QTranslate Fixed v1.2.0
+# FAQ
 
-This release brings QTranslate Fixed to both **Windows 10/11** and **macOS**.
+### What is QTranslate Fixed?
 
-The goal is simple:
+QTranslate Fixed is an unofficial community project focused on keeping the fast QTranslate workflow available on modern Windows and macOS.
+
+The main idea is simple:
 
 **Select text → press a hotkey → get an instant translation.**
 
-No browser tabs, no copying text manually, no heavy translator application running in the background.
+---
+
+### Is there a native macOS version?
+
+Yes.
+
+QTranslate Fixed for macOS is a native macOS application and does not require Wine.
+
+Download:
+
+**[Download macOS v1.0](https://github.com/ayorogamble/QTranslate-Fixed/releases/latest)**
 
 ---
 
-# macOS
+### Does it support Apple Silicon?
 
-The macOS version is a native implementation of the QTranslate workflow.
+Yes.
 
-It does **not require Wine** and runs as a native macOS menu-bar application.
+The macOS application supports:
 
-## Features
+- Apple Silicon
+- Intel Mac
 
-- Native macOS application
-- Apple Silicon and Intel Mac support
-- `Control + Q` — show translation
-- `Control + W` — translate and replace selected text
-- `Control + D` — fix EN/RU keyboard layout
+---
+
+### Does it work on Windows 10 and Windows 11?
+
+Yes.
+
+The Windows version is intended for:
+
+- Windows 10
+- Windows 11
+
+Download:
+
+**[Download Windows 10-11](https://github.com/ayorogamble/QTranslate-Fixed/releases/latest)**
+
+---
+
+### What are the default hotkeys?
+
+#### macOS
+
+| Action | Hotkey |
+|---|---|
+| Show translation | `Control + Q` |
+| Translate and replace text | `Control + W` |
+| Fix EN/RU keyboard layout | `Control + D` |
+
+#### Windows
+
+| Action | Hotkey |
+|---|---|
+| Show popup translation | `Ctrl + Q` |
+| Translate and replace text | `Ctrl + W` |
+| Fix keyboard layout | `Ctrl + D` |
+
+---
+
+### Which translation services are supported?
+
+Depending on the platform and build:
+
 - Google Translate
-- Yandex Web translation
-- OpenAI / ChatGPT translation
-- Automatic language detection
-- Smart bidirectional translation
-- Configurable source and target languages
-- macOS system proxy support
-- OpenAI API key configuration directly inside QTranslate
-- OpenAI API key stored securely in **macOS Keychain**
-- Global hotkeys
-- Fast popup translation
+- DeepL
+- Yandex
+- OpenAI / ChatGPT
 
-## Download macOS v1.0
+Third-party services may change their APIs or endpoints over time.
 
-### [Download QTranslate Fixed for macOS](https://github.com/ayorogamble/QTranslate-Fixed/releases/latest)
+---
 
-File:
+### How do I use OpenAI / ChatGPT on macOS?
 
-`QTranslate-Fixed-macOS-v1.0.dmg`
+Open:
 
-SHA256:
+`QTranslate → Settings → OpenAI (ChatGPT)`
+
+Paste your own OpenAI API key and select a model.
+
+The API key is stored in **macOS Keychain**.
+
+No API key is included in the application.
+
+---
+
+### Is ChatGPT Plus enough for OpenAI translation?
+
+No.
+
+ChatGPT subscriptions and OpenAI API billing are separate.
+
+You need your own OpenAI API key if you want to use the OpenAI translation service.
+
+---
+
+### Why does translation work in my browser but not in QTranslate?
+
+Some translation services can be blocked or unavailable depending on:
+
+- ISP
+- region
+- IP address
+- proxy settings
+- VPN routing
+
+Make sure QTranslate uses the same working network route as your browser.
+
+On macOS, enable:
+
+`Use macOS system proxy`
+
+when required.
+
+---
+
+### macOS says the application cannot be opened. What should I do?
+
+After verifying the published checksum:
+
+Open:
+
+`System Settings → Privacy & Security`
+
+and choose:
+
+`Open Anyway`
+
+You may also use Finder → right-click the application → `Open`.
+
+---
+
+### Why does macOS ask for Accessibility permission?
+
+Accessibility permission is required for:
+
+- global hotkeys
+- reading selected text
+- replacing selected text
+
+Without it, some QTranslate features cannot work.
+
+---
+
+### Is QTranslate Fixed official?
+
+No.
+
+This is an unofficial community project and is not affiliated with QuestSoft, Apple, Google, DeepL, Yandex or OpenAI.
+
+See:
+
+**[Legal notice](LEGAL.md)**
+
+---
+
+# Support the project
+
+If QTranslate Fixed is useful to you, you can support further development, fixes and maintenance.
+
+Если проект оказался полезен, можно поддержать дальнейшую разработку.
+
+### BTC
 
 ```text
-e43cb545054bf52c2fe841c31267e3b6271c2799052286875b3483fb38a2acdb
+bc1qmnq60wkwen6lpz7aax0avpw934p5a4nmclakj4
